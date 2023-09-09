@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyBGList_ApiVersion2.props" />
+</Project>
