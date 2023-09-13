@@ -2504,11 +2504,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\WebAPI-with-ASP.NET-Core\\Chapter_05\\MyBGList\\MyBGList.csproj",
+      "projectUniqueName": "C:\\Projects\\WebAPI-with-ASP.NET-Core\\Chapter_05\\Exercise\\MyBGList.csproj",
       "projectName": "MyBGList",
-      "projectPath": "C:\\Projects\\WebAPI-with-ASP.NET-Core\\Chapter_05\\MyBGList\\MyBGList.csproj",
+      "projectPath": "C:\\Projects\\WebAPI-with-ASP.NET-Core\\Chapter_05\\Exercise\\MyBGList.csproj",
       "packagesPath": "C:\\Users\\Mali\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\WebAPI-with-ASP.NET-Core\\Chapter_05\\MyBGList\\obj\\",
+      "outputPath": "C:\\Projects\\WebAPI-with-ASP.NET-Core\\Chapter_05\\Exercise\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mali\\AppData\\Roaming\\NuGet\\NuGet.Config",

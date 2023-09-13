@@ -30,7 +30,7 @@ namespace MyBGList.Controllers
 
         [HttpPut(Name = "Seed")]
         [ResponseCache(NoStore = true)]
-        public async Task<IActionResult> Put()
+        public async Task<IActionResult> Put(int? Id)
         {
             // SETUP
             var config = new CsvConfiguration(CultureInfo.GetCultureInfo("pt-BR"))
@@ -41,6 +41,8 @@ namespace MyBGList.Controllers
             using var reader = new StreamReader(
                 System.IO.Path.Combine(_env.ContentRootPath, "Data/bgg_dataset.csv"));
             using var csv = new CsvReader(reader, config);
+            var query = _context.BoardGames.AsQueryable();
+
             var existingBoardGames = await _context.BoardGames
                 .ToDictionaryAsync(bg => bg.Id);
             var existingDomains = await _context.Domains
@@ -56,7 +58,9 @@ namespace MyBGList.Controllers
             {
                 if (!record.ID.HasValue
                     || string.IsNullOrEmpty(record.Name)
-                    || existingBoardGames.ContainsKey(record.ID.Value))
+                    || existingBoardGames.ContainsKey(record.ID.Value)
+                    || (Id.HasValue && Id.Value != record.ID.Value)
+                    )
                 {
                     skippedRows++;
                     continue;

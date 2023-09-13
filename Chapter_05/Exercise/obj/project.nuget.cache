@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8CZGe6Agg7uTE3EPh9ZKukeMoBAIKGpwnzRMtjIaf3esw2hcw35Pwi4Abc8JRn0EDx6rYKCMGDMqh2pbp6ezww==",
+  "dgSpecHash": "teBFYMWCwlOMLgowE0Av/pm3HGscG6YpU9/7/KJu9wt0zZKweRxFr05Qa6j71G0ID9l2VYCkPNwPl6PYoVCWGg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\WebAPI-with-ASP.NET-Core\\Chapter_05\\MyBGList\\MyBGList.csproj",
+  "projectFilePath": "C:\\Projects\\WebAPI-with-ASP.NET-Core\\Chapter_05\\Exercise\\MyBGList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mali\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
     "C:\\Users\\Mali\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
